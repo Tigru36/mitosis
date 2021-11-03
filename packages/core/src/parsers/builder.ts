@@ -909,5 +909,7 @@ export const builderContentToMitosisComponent = (
     })),
   };
 
+  componentJson.meta.cssCode = builderContent.data?.cssCode;
+
   return componentJson;
 };
